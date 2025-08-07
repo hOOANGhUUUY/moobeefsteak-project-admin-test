@@ -1,0 +1,28 @@
+
+> free-nextjs-admin-dashboard@2.0.2 build
+> next build
+
+ ⚠ Warning: Found multiple lockfiles. Selecting d:\DuAnTotNghiep\DuAn\moobeefsteak-project\package-lock.json.
+   Consider removing the lockfiles at:
+   * d:\DuAnTotNghiep\DuAn\moobeefsteak-project\frontend-admin\package-lock.json
+
+   ▲ Next.js 15.4.3
+   - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 7.0s
+   Linting and checking validity of types ...
+
+Failed to compile.
+
+./src/components/tables/OrderForm.tsx
+11:10  Error: 'selected' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+251:33  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+251:69  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+252:35  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+252:79  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./src/components/tables/Post/PostList.tsx
+279:40  Error: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules

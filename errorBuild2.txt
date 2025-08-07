@@ -1,0 +1,38 @@
+
+> free-nextjs-admin-dashboard@2.0.2 build
+> next build
+
+ ⚠ Warning: Found multiple lockfiles. Selecting d:\DuAnTotNghiep\DuAn\moobeefsteak-project\package-lock.json.
+   Consider removing the lockfiles at:
+   * d:\DuAnTotNghiep\DuAn\moobeefsteak-project\frontend-admin\package-lock.json
+
+   ▲ Next.js 15.4.3
+   - Environments: .env.local, .env
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./src/components/tables/Pay.tsx
+Error:   [31mx[0m Expected ';', '}' or <eof>
+     ,-[[36;1;4md:\DuAnTotNghiep\DuAn\moobeefsteak-project\frontend-admin\src\components\tables\Pay.tsx[0m:306:1]
+ [2m303[0m |       //   setNotification({
+ [2m304[0m |       //     open: true,
+ [2m305[0m |       //     title: "Xác nhận xóa",
+ [2m306[0m | [35;1m,[0m[35;1m-[0m[35;1m>[0m       description: "Bạn có chắc chắn muốn xóa phương thức thanh toán này?",
+ [2m307[0m | [35;1m|[0m[35;1m-[0m[35;1m>[0m       emoji: <span style={{ fontSize: 28 }}>⚠️</span>,
+     : [35;1m`[0m[35;1m---[0m[33;1m           ^[0m
+     : [35;1m`[0m[35;1m---[0m[35;1m-[0m [35;1mThis is the expression part of an expression statement[0m
+ [2m308[0m |           acceptText: "Xóa",
+ [2m309[0m |           rejectText: "Hủy",
+ [2m309[0m |           onAccept: async () => {
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/tables/Pay.tsx
+./src/app/(admin)/(others-pages)/quan-ly-phuong-thuc-thanh-toan/page.tsx
+
+
+> Build failed because of webpack errors
